@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-uuid@0.0.6/js-uuid.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Todo</h1>
+    <input type="text" id="todo-input" placeholder="Enter todo here"></input>
+    <div id="buttons">
+        <button id="add-todo" onclick="addTodo()">Add</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
